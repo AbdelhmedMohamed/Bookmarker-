@@ -1,0 +1,57 @@
+body{
+    font-family: 'PT Sans Caption', sans-serif;
+    background-color: #F7ECDE;
+}
+
+.aaa{
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+    color: #352e28;
+    isolation: isolate;
+    position: relative;
+}
+
+.aaa::before{
+    content: " ";
+    width: 250px;
+    height: 20px;
+    background-color:hsl(37, 99%, 69%);
+    
+    position: absolute;
+   top: 45px;
+    right: 12px;
+    z-index: -1;
+    
+}
+
+.aaa:hover::before{
+    content: " ";
+    width: 250px;
+    height: 35px;
+    background-color:#FEC260;
+    transition: 1s;
+    position: absolute;
+   top: 20px;
+    right: 12px;
+    z-index: -1;
+}
+
+.qqq{
+    font-family: 'Righteous', sans-serif;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.bookmark-body{
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+    border-color: #352e28;
+}
+
+.btn-submit{
+    background-color: #C04523;
+    color: #fff;
+}
